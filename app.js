@@ -138,7 +138,7 @@ function closeLogin() {
 function confirmLogin() {
   const val = qs('#passwordInput').value.trim();
   if (val === PASSWORD) {
-    const link = 'https://www.tiktok.com/@ella_00357/video/7560691801951178006?_r=1&_t=ZN-90W348RQuv9';
+    const link = 'https://drive.google.com/file/d/1CVp_BPDAJHWQrdt0NEep_zlY0w8DtZtQ/view?usp=sharing';
     try {
       window.open(link, '_blank');
     } catch (e) {
